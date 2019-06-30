@@ -6,35 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GifTastic</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="app.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
 </head>
 
 <body>
-    <div class="container">
-    <div id="buttons-view">
-   <!-- <button data-show="got">Game of Thrones</button>
-    <button data-show="friends">Friends</button>
-    <button data-show="seinfeld">Seinfeld</button>
-    <button data-show=""></button>-->
+    <div class="container container-fluid">
+
+        <div class="jumbotron">
+            <h1 class="display-4"><strong>GifTastic</strong></h1>
+            <p class="lead">See gifs of your favorite show.</p>
+            <hr class="my-4">
+        </div>
+        <div id="buttons-view">
+            <!-- <button data-show="got">Game of Thrones</button>
+            <button data-show="friends">Friends</button>
+            <button data-show="seinfeld">Seinfeld</button>
+            <button data-show=""></button>-->
+        </div>
+        <div id="search-form">
+
+        </div>
+        <!--<form id="topic-form">
+                    <label for="topic -input">Add a Topic, Yo!</label>
+                    <input type="text" id="topic-input"><br>
+                    Button triggers new movie to be added
+                    <input id="add-topic" type="submit" value="Add a Topic, Yo!">
+                </form>-->
+
+        <div class="row">
+            <div class="col-md-12" id="gifs-appear-here">
+
+            </div>
+        </div>
     </div>
 
-    <form id="topic-form">
-            <label for="topic -input">Add a Topic, Yo!</label>
-            <input type="text" id="topic-input"><br>
-      
-            <!-- Button triggers new movie to be added -->
-            <input id="add-topic" type="submit" value="Add a Topic, Yo!">
-          </form>
-      
-      
-    <div id="gifs-appear-here">
-    </div>
-</div>
 </body>
 
 </html>
